@@ -40,7 +40,6 @@ public class SwapNumbers {
         System.out.println("q value is "+q);
         System.out.println("r value is "+r);
 
-
         int m=6, n=7, o=8;
 
         m=m+n+o;
@@ -48,10 +47,8 @@ public class SwapNumbers {
         o=m-(n+o);
         m=m-(n+o);
 
-
         System.out.println("m value is "+m);
         System.out.println("n value is "+n);
         System.out.println("o value is "+o);
-
     }
 }
