@@ -18,12 +18,23 @@ public class Practice {
             rev.append(ch[i]);
         }
         System.out.println(rev.toString());
+
+        Practice p = new Practice();
+        String out = p.r1(5);
+        System.out.println(out);
     }
 
-    public String r1(){
-        int i =1;
-        System.out.println("printing "+ i++);
-        return r1();
+    public String r1(int limit){
+        System.out.println("printing: "+limit);
+        limit++;
+        if(limit > 15){
+            return "exceed max limit";
+        }
+
+        for(int i=0; i>-1; i++){
+            System.out.println("print value "+i);
+        }
+        return r1(limit);
     }
 }
 
